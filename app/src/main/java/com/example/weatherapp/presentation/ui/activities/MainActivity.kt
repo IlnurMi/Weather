@@ -20,6 +20,7 @@ class MainActivity : AppCompatActivity(),MainPresenter.View {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
+
         mCityTextView = findViewById(R.id.city_textview)
         mTempTextView = findViewById(R.id.temp_textview)
 
